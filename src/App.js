@@ -65,9 +65,9 @@ function App() {
   };
 
   return (
-    <div className=" container App">
+    <div className="container App">
       <br></br>
-      <h2>To Do List App</h2>
+      <h2>To Do List</h2>
       <br></br>
 
       {updateData.length != 0 ? (
@@ -81,12 +81,12 @@ function App() {
               />
             </div>
             <div className="col-auto">
-              <button onClick={updateTask} className="btn btn-lg btn-success">
+              <button onClick={updateTask} className="btn btn-lg btn-warning">
                 Update
               </button>
             </div>
             <div className="col-auto">
-              <button onClick={cancelUpdate} className="btn btn-lg btn-warning">
+              <button onClick={cancelUpdate} className="btn btn-lg btn-danger">
                 Cancel
               </button>
             </div>
@@ -128,7 +128,8 @@ function App() {
                     <span className="taskNumber">{index + 1}</span>
                     <span
                       style={{
-                        textDecoration: task.status ? "line-through" : "none",
+                        wordBreak:'break-all',
+                        textDecoration: task.status ? 'line-through' : "none",
                       }}
                       className="taskText"
                     >

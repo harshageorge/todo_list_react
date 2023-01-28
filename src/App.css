@@ -1,5 +1,5 @@
 body {
-  background-color: #333;
+  background-color: #182621;
   color: #fff;
 }
 
@@ -9,7 +9,7 @@ body {
 }
 
 .taskBg {
-  background-color: #555;
+  background-color: #17b37b;
   border-radius: 6px;
   margin-bottom: 20px;
   padding: 10px 140px 10px 15px;
@@ -23,8 +23,8 @@ body {
   align-items:center;
 }
 .taskNumber {
-  color: #999;
-  border: 1px solid #999;
+  color: #fff;
+  border: 1px solid #fff;
   border-radius: 50%;
   width: 26px;
   height: 26px;
@@ -55,9 +55,8 @@ body {
   display: inline-block;
   margin: 0px 10px 0 10px;
   cursor: pointer;
-  color: #00ff89;
+  color: #fff;
 }
 .taskBg .iconsWrap span:hover {
   color: yellow;
 }
-
